@@ -124,15 +124,16 @@ console.log(count);*/
 /*
 2.) Find all items with a backorder availability in inventories.
 */
-//var inventories = data['items'][i].product.inventories;
-// for(var i = 0; i < data['items'].length; i++) {
-//   for (var j = 0; j < product.length; j++) {
-//   var product = data['items'][i].product;
-//   var inventory=data['items'][i].product.inventories[j].availability;
-//   //console.log(products.length);
-//   }
 
-//}
+// for(var i = 0; i < data['items'].length; i++) {
+//   var product = data['items'][i].product;
+//    //console.log(product.length);
+//   for(var j = 0; j < product.length; j++) {
+//   var inventory = data['items'][i].product.inventories[j];
+//   console.log(inventory);
+//    }
+
+// }
 
 
 
