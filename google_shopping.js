@@ -65,12 +65,27 @@ console.log(count);*/
 5.) Find all items that have product author name of "eBay" and are brand "Canon".
 */
 
-  for(i=0; i<data['items'].length; i++) {
-    var product = data['items'][i].product;
-    var author = console.log(data['items'][i].product.author.name[0].indexOf('ebay'));
-    var brand = data['items'][i].product.brand;
-     //console.log(author);
-    if (brand==="Canon" && data['items'][i].product.author.name[0].indexOf('ebay')) {
-      console.log(data['items'][i].product);
-    }
-  }
+  // for(i=0; i<data['items'].length; i++) {
+  //   var product = data['items'][i].product;
+  //   var author = console.log(data['items'][i].product.author.name[0].indexOf('ebay'));
+  //   var brand = data['items'][i].product.brand;
+  //    //console.log(author);
+  //   if (brand==="Canon" && data['items'][i].product.author.name[0].indexOf('ebay')) {
+  //     console.log(data['items'][i].product);
+  //   }
+  // }
+
+
+
+
+//Question 6
+/*
+6.) Print all the products with their brand, price, and a image link
+*/
+
+  // for(i=0; i < data['items'].length; i++) {
+  //   brand = data['items'][i].product.brand;
+  //   price = data['items'][i].product.inventories[0].price;
+  //   image = data['items'][i].product.images[0].link;
+  //   console.log('The brand is '+brand+','+'The price is '+price+','+" and the images are "+image);
+  // }
